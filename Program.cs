@@ -215,8 +215,18 @@
 
 // ---------------- treinando Objetos ----------------
 
-Aluno aluno1 = new Aluno();
-aluno1.Nome = "homi";
-aluno1.Idade = 17;
+Aluno aluno1 = new Aluno("Matheus", 26, 2000);
+Aluno aluno2 = new Aluno("Felipe", 26, 0);
+// livro unidade = new livro("As aventuras de pi", "Yann Martel", 2001);
 
-Console.WriteLine(aluno1.Nome);
+aluno1.depositar(aluno1, 100);
+Console.WriteLine(aluno1.Saldo);
+
+aluno1.sacar(aluno1, 200);
+Console.WriteLine(aluno1.Saldo);
+
+
+aluno1.transferir(900, aluno1, aluno2);
+Console.WriteLine(aluno1.Saldo);
+Console.WriteLine(aluno2.Saldo);
+

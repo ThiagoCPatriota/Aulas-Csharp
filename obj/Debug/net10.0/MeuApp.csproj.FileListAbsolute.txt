@@ -12,3 +12,4 @@ C:\Users\thiag\Documents\csharp\MeuApp\obj\Debug\net10.0\refint\MeuApp.dll
 C:\Users\thiag\Documents\csharp\MeuApp\obj\Debug\net10.0\MeuApp.pdb
 C:\Users\thiag\Documents\csharp\MeuApp\obj\Debug\net10.0\MeuApp.genruntimeconfig.cache
 C:\Users\thiag\Documents\csharp\MeuApp\obj\Debug\net10.0\ref\MeuApp.dll
+C:\Users\thiag\Documents\csharp\MeuApp\obj\Debug\net10.0\MeuApp.sourcelink.json
